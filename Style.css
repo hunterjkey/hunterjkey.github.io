@@ -1,12 +1,33 @@
-/*--body {
-	background-color: #d2b48c;
-	margin-left: 20%;
-	margin-right: 20%;
-	border: 1px solid gray;
-	padding: 10px 10px 10px 10px;
-	font-family: sans-serif;
+body {
+	background-color: Blue;
+}
+h2	{
+	font-size: 30px;
+}
+.title {
+	/*--background-color: Blue;
+	padding: 10px;*/
 	text-align: center;
-	}--*/
-h1 {
-	font-size: 60px;
+	position: relative;
+	color: white;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 10px;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 100px;
+	transform: translate(-50%, -50%);
+}
+
+.main {
+	background-color: White;
+	padding: 10px;
 }
