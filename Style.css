@@ -45,6 +45,10 @@ ul	{
 	font-family: Garamond, Arial;
 }
 
+.main h3{
+	font-size: 25px;
+}
+
 a	{
 	color: black;
 }
@@ -65,4 +69,8 @@ a	{
 .buttonbox	{
 	margin-top: 5px;
 	margin-bottom: 5px;
+}
+
+.buttonbox a{
+	text-decoration: none;
 }
