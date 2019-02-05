@@ -43,6 +43,7 @@ ul	{
 	padding: 10px;
 	color: black;
 	font-family: Garamond, Arial;
+	width: 100%;
 }
 
 .main h3{
@@ -78,4 +79,10 @@ a	{
 .gif	{
 	border: 1px solid black; 
 	display:inline-block; 
+}
+
+#portfolio h1{
+	font-size: 60px;
+	color: #4484CE;
+	font-family: Georgia, Arial;
 }
