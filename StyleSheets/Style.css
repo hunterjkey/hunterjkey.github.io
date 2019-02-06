@@ -11,6 +11,10 @@ ul	{
 	font-size: 20px;
 }
 
+img	{
+	overflow: hidden;
+}
+
 .title {
 	/*--background-color: Blue;*/
 	padding: 0px;
@@ -79,7 +83,8 @@ a	{
 
 .gif	{
 	border: 1px solid black; 
-	display:inline-block; 
+	display:inline-block;
+	overflow:hidden;	
 }
 
 #portfolio h1{
