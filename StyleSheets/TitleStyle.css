@@ -1,0 +1,32 @@
+body {
+	
+}
+	
+#TitleText {
+	font-size: 100px;
+	Color: White;
+}
+	
+.centered {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+a	{
+	text-decoration: none;
+}
+
+.button	{
+	height: 40px;
+	display: inline-block;
+	background-color: White;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.buttonbox	{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}

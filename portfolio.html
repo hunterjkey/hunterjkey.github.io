@@ -2,20 +2,23 @@
 <html>
 <head>
 	<title>Hunter Key's Personal Website</title>
-	<link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="stylesheet" type="text/css" href="StyleSheets\Style.css">
 	
 </head>
 
-<body>
+<body style="background-color: #909090;">
 	<div class="title">
 		<img src="Images\coding.png" style="width:100%">
 		<div class="bottom-right">image source: www.theverge.com</div>
-		<div class="centered">Programming Portfolio</div>
+		<div class="centered" style="font-size: 100px;">Programming Portfolio</div>
 	</div>
 
 	<div class="buttonbox">
 		<a href="index.html">
-			<button style="width: 100px;" class="button">Main Page</button>
+			<button style="width: 120px;" class="button">Title Page</button>
+		</a>
+		<a href="main.html">
+			<button style="width: 100px;" class="button">About Me</button>
 		</a>
 		<a href="portfolio.html">
 		<button style="width: 180px;" class="button">Programming Portfolio</button>
@@ -34,15 +37,15 @@
 		</div>
 	</div>
 	
-	<div class="main" id="portfolio">
+	<div class="main twentypadding" id="portfolio">
 		<h1>General Python</h1>
 		<h3>Web Scraper</h3>
 		<p>As a part of my IB Computer Science Course, I built my own 
-		webscraper that would detect changes on a webpage. Instead of
+		webscraper that could detect changes on a webpage. Instead of
 		focusing on one website for my Web Scraper to work on, I tried
 		to make it as general as possible so that it could function on
 		any page. The scraper does this through two steps. First, it takes
-		the ENTIRETY of the particular websites's HTML and converst it
+		the ENTIRETY of the particular websites's HTML and converts it
 		into a single string. From there, it counts the characters to see
 		if the website's structure itself had changed. Secondly, it goes
 		and finds the first paragraph tag within the website and analyzes
