@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Hunter Key's Personal Website</title>
+	<script src="Javascript.js"></script>
 	<link rel="stylesheet" type="text/css" href="StyleSheets\TitleStyle.css">
 	<style>
 		body {
@@ -18,16 +20,16 @@
 </head>
 
 <body>
-	<div class="centered" id="TitleText" style="top: 45%;">
+	<div class="centered" id="TitleText" style="top: 46%;">
        Hunter Key
     </div>
 	
-	<div class="buttonbox centered" style="top: 58%;">
+	<div class="buttonbox centered" style="top: 54%;">
 		<a href="main.html">
-			<button style="width: 220px;" class="button">About Me</button>
+			<button style="width: 220px;" class="button" onmouseover="Highlight(this)" onmouseout="DeHighlight(this)">About Me</button>
 		</a>
 		<a href="portfolio.html">
-		<button style="width: 220px;" class="button">Programming Portfolio</button>
+		<button style="width: 220px;" class="button" onmouseover="Highlight(this)" onmouseout="DeHighlight(this)">Programming Portfolio</button>
 		</a>
 	</div>
 
