@@ -43,6 +43,8 @@ img	{
 	padding: 10px;
 	color: black;
 	font-family: Garamond, Arial;
+	margin-left: 1%;
+	margin-right: 1%;
 }
 
 .main h3{
@@ -71,12 +73,13 @@ a	{
 .socialmedia	{
 	display: inline-block;
 	position: absolute;
-	right: 1%;
+	right: 20px;
 }
 
 .buttonbox	{
 	margin-top: 5px;
 	margin-bottom: 5px;
+	margin-left: 1%;
 }
 
 .buttonbox a{
@@ -92,6 +95,18 @@ a	{
 	font-size: 60px;
 	color: #4484CE;
 	font-family: Georgia, Arial;
+}
+
+footer {
+    background-color: #2f6283;
+    color: white;
+    padding: 10px;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+#githublink {
+	color: white;
 }
 
     
