@@ -43,8 +43,8 @@ img	{
 	padding: 10px;
 	color: black;
 	font-family: Garamond, Arial;
-	margin-left: 1%;
-	margin-right: 1%;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 .main h3{
@@ -54,8 +54,8 @@ img	{
 .twentypadding {
 	padding-left: 20%;
 	padding-right: 20%;
-	margin-left: 1%;
-	margin-right: 1%;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 a	{
@@ -73,13 +73,13 @@ a	{
 .socialmedia	{
 	display: inline-block;
 	position: absolute;
-	right: 20px;
+	right: 2%;
 }
 
 .buttonbox	{
 	margin-top: 5px;
 	margin-bottom: 5px;
-	margin-left: 1%;
+	margin-left: 2%;
 }
 
 .buttonbox a{
@@ -101,8 +101,8 @@ footer {
     background-color: #2f6283;
     color: white;
     padding: 10px;
-	margin-left: 1%;
-	margin-right: 1%;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 #githublink {
