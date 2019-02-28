@@ -15,6 +15,11 @@ img	{
 	overflow: hidden;
 }
 
+h3	{
+
+	font-size: 25px;
+}
+
 .title {
 	/*--background-color: Blue;*/
 	padding: 0px;
@@ -107,6 +112,10 @@ footer {
 
 #githublink {
 	color: white;
+}
+
+.PortfolioHeadings {
+
 }
 
     
