@@ -1,10 +1,8 @@
 function Highlight(obj) {
-  obj.style.border = "1px solid red";
-  obj.style.color = "red";
+  obj.style.color = "rgb(95,136,192)";
 }
 function DeHighlight(obj) {
-  obj.style.border = "1px solid black";
-  obj.style.color = "black";
+  obj.style.color = "White";
 }
 
 function ChangeGrey() {

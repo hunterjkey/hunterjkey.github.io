@@ -1,15 +1,22 @@
 body {
-	
+
 }
 	
-#TitleText {
+#TitleText1 {
+	font-size: 10vw;
+	Color: Black;
+	top: 49.7%;
+	left: 49.7%;
+}
+#TitleText2 {
 	font-size: 10vw;
 	Color: White;
+	top: 50%;
+	left: 50%;
 }
 	
 .centered {
 	position: absolute;
-	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
 	padding: 0px;
@@ -17,19 +24,36 @@ body {
 
 a	{
 	text-decoration: none;
+	Color: White;
+	font-weight: Bold;
 }
 
 .button	{
-	height: 4vw;
+	height: 2vw;
 	display: inline-block;
-	background-color: White;
-	border: 1px solid black;
-	border-radius: 10px;
-	font-size: 2.0vw;
-	margin-bottom: 5px;
+	font-size: 1.75vw;
+	margin-left: 6vw;
+	padding-top: 1.5vw;
+	
 }
 
 .buttonbox	{
 	margin-top: 5px;
 	margin-bottom: 5px;
+	height: 5vw;
+	Position: fixed;
+	width: 99.5%;
 }
+
+.socialmedia	{
+	display: inline-block;
+	position: absolute;
+	right: 2%;
+	padding-top: 1vw;
+}
+.socialmediaimages	{
+	height: 3vw;
+	width: 3vw;
+}
+
+	
